@@ -15,4 +15,5 @@ $headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
 
 mail($receiving_email_address, $subject, $message, $headers);
 header("Location:https://nikistoyanov.github.io/Portfolio/");
-?>
+
+exit;
